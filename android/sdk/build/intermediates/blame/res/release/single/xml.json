@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/res/merged/release/xml/rn_dev_preferences.xml",
+        "source": "/Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/res/xml/rn_dev_preferences.xml"
+    },
+    {
+        "merged": "/Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/res/merged/release/xml/file_provider_paths.xml",
+        "source": "/Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/packaged_res/release/xml/file_provider_paths.xml"
+    }
+]

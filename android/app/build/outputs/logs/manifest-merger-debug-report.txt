@@ -1,0 +1,842 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:17:1-28:12
+MERGED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-55:12
+MERGED from [hermes-debug.aar] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/hermes-debug.aar/0b13da99593327a45189d8a90497d8ab/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/80cf2809457f85181cba66f56c2fbfc8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/27516f2b3edfd870a3523f58564c43ab/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/4deeae428cc23d1a3f87222c95402cd2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bd45fac9b29648b1766cf8b6d5eda591/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/c59fb684b860ab219212f3c7b7bb7891/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/dd72b65c9592c1b009044f68d9305155/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/39f57a7b5d48cc3b5f17cf749019991a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/6590d3d21588bcfde9d3e4c753b3031a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/1a56493bf181deb6d9d8d250b1d16c6a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/81b7c367465da2f151bcee5a97bfe339/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ab7e9327ba4677fdbe330674b1384108/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-google-signin] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-background-timer] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-community-async-storage] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-default-preference] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-default-preference/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-immersive] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-immersive/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-keep-awake] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-svg] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webrtc] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4541abb0d21c0f21275d399b3315e33f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:2:1-19:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:17:1-72:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.0-beta-5.aar/2dcb92a482507dd6ba233b48e95cfec6/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/dbd739c65b1fc1698e532b9e80fe745c/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.media:media:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/d84a957dc71689ec733ede88543006b8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/db14bac4482869ec308a33952b646cb4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/901ad76e3f20c1d5ffef98f29e1737dd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/4af92403b976a06474126b0181214f0f/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f9df1f412d058f0f59343af99842f40e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fragment-1.2.0.aar/62633ac3e1359bd640107a5363c3d89a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/680e2f919b0b35a084be37824906ea80/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4a2fbbb71d4d32230aa736b65879a147/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/739914d68ac688892239025e3cd19eaf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/2ffa3c0013ca5d31b21f136038b97d90/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dc81c3f53830e532ee481850921b7856/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/082fde3a2ba547601de7f2affdce49e3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/7618c9abcdf6649da725872b495bb391/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/9f944a09c2b2fca370ac15f4157e31fb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/5bd74429d0fc36eb15e07e60fc6a2211/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/activity-1.1.0.aar/06fbdc958b7e50be8403e94913f1cab6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f117db61cbe1235121f5997bd8778b56/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/0e43e9b989c1fd86299efa6d308246d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/769b4758a68a98809c60f5e7049a05a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/4e01be80a61e63c1a29b088611ce61d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/62f27474a41777f877d88292ff20dc71/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/03fda573329a48287a2191fc70be7db1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-savedstate-1.0.0.aar/c09fdf43f756f2a8f69db4c209c4276e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.2.0.aar/e495abd6d0080085d46d588c6e77455a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c44da5d22a3eb48079e53290b93b3199/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/f3dd15b04d64052ab21c18497f2b5d6a/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5e85e155f0de3d6ddb7ed59fd91527d1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.2.0.aar/b54badbb6f7c22bdc900ffb15d20ea57/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-runtime-2.1.0.aar/3c74cb9d7d86f31dfb8b3b04960f53a6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:22:1-33:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/9a918828b64db5e05c9a33d6cc4393f4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-duktape-android-1.3.0.aar/154e4a5f5a0329023b1cd1131a614d2c/AndroidManifest.xml:2:1-14:12
+MERGED from [:react-native-linear-gradient] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sound] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/73963ff844050c25cd9a9650335a98aa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4257a2d0cca4f19b7d81bb63a9df2faa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/08a019a6ff4d2972de3da3164b851382/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/e5e4635175a17b35099784e74e82cc7b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/5f6f607516d49c62e12f7437c8ad9b72/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/95ea3bb784712d4fe0ac7ca1ebc74720/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/149a7a9e5a56e0102561c87c526f38e2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/c6665befe94cbbdee3bcd8cf4a3ea219/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+	package
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:1:1-43:12
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:2:5-63
+	android:installLocation
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:4:5-35
+application
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:5:3-42:17
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:22:5-26:19
+MERGED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-53:19
+MERGED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-53:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/4deeae428cc23d1a3f87222c95402cd2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/4deeae428cc23d1a3f87222c95402cd2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bd45fac9b29648b1766cf8b6d5eda591/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bd45fac9b29648b1766cf8b6d5eda591/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/c59fb684b860ab219212f3c7b7bb7891/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/c59fb684b860ab219212f3c7b7bb7891/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/dd72b65c9592c1b009044f68d9305155/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/dd72b65c9592c1b009044f68d9305155/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/39f57a7b5d48cc3b5f17cf749019991a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/39f57a7b5d48cc3b5f17cf749019991a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/6590d3d21588bcfde9d3e4c753b3031a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/6590d3d21588bcfde9d3e4c753b3031a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/1a56493bf181deb6d9d8d250b1d16c6a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/1a56493bf181deb6d9d8d250b1d16c6a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/81b7c367465da2f151bcee5a97bfe339/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/81b7c367465da2f151bcee5a97bfe339/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:22:5-26:19
+MERGED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:11:5-17:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:28:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:28:5-70:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/03fda573329a48287a2191fc70be7db1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/03fda573329a48287a2191fc70be7db1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:31:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/9a918828b64db5e05c9a33d6cc4393f4/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/9a918828b64db5e05c9a33d6cc4393f4/AndroidManifest.xml:7:5-20
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-duktape-android-1.3.0.aar/154e4a5f5a0329023b1cd1131a614d2c/AndroidManifest.xml:12:5-20
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-duktape-android-1.3.0.aar/154e4a5f5a0329023b1cd1131a614d2c/AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/149a7a9e5a56e0102561c87c526f38e2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/149a7a9e5a56e0102561c87c526f38e2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:8:7-39
+	android:icon
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:7:7-41
+	android:allowBackup
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:6:7-33
+	android:theme
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:10:7-38
+	android:networkSecurityConfig
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:9:7-67
+meta-data#android.content.APP_RESTRICTIONS
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:11:5-13:52
+	android:resource
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:13:9-49
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:12:9-56
+activity#org.jitsi.meet.MainActivity
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:14:5-41:16
+	android:label
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:16:9-41
+	android:launchMode
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:supportsPictureInPicture
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:20:9-48
+	android:resizeableActivity
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:19:9-42
+	android:configChanges
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:15:9-111
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:18:9-37
+meta-data#firebase_crashlytics_collection_enabled
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:22:7-97
+	android:value
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:22:73-94
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:22:18-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:23:7-26:23
+action#android.intent.action.MAIN
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:24:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:25:9-69
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:25:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:alpha.jitsi.net+data:host:beta.meet.jit.si+data:host:meet.jit.si+data:scheme:https+data:scheme:https+data:scheme:https
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:27:7-34:23
+action#android.intent.action.VIEW
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:28:9-61
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:28:17-58
+category#android.intent.category.BROWSABLE
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:29:9-70
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:29:19-67
+category#android.intent.category.DEFAULT
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:30:9-68
+	android:name
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:30:19-65
+data
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:31:9-71
+	android:host
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:31:15-45
+	android:scheme
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:31:46-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:org.jitsi.meet
+ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml:35:7-40:23
+uses-sdk
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:20:5-44
+MERGED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [hermes-debug.aar] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/hermes-debug.aar/0b13da99593327a45189d8a90497d8ab/AndroidManifest.xml:5:5-44
+MERGED from [hermes-debug.aar] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/hermes-debug.aar/0b13da99593327a45189d8a90497d8ab/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/80cf2809457f85181cba66f56c2fbfc8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-api-phone-16.0.0.aar/80cf2809457f85181cba66f56c2fbfc8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/27516f2b3edfd870a3523f58564c43ab/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/27516f2b3edfd870a3523f58564c43ab/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/4deeae428cc23d1a3f87222c95402cd2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/4deeae428cc23d1a3f87222c95402cd2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bd45fac9b29648b1766cf8b6d5eda591/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.4.aar/bd45fac9b29648b1766cf8b6d5eda591/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/c59fb684b860ab219212f3c7b7bb7891/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/c59fb684b860ab219212f3c7b7bb7891/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/dd72b65c9592c1b009044f68d9305155/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/dd72b65c9592c1b009044f68d9305155/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/39f57a7b5d48cc3b5f17cf749019991a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/39f57a7b5d48cc3b5f17cf749019991a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/6590d3d21588bcfde9d3e4c753b3031a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.5.aar/6590d3d21588bcfde9d3e4c753b3031a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/1a56493bf181deb6d9d8d250b1d16c6a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/1a56493bf181deb6d9d8d250b1d16c6a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/81b7c367465da2f151bcee5a97bfe339/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/81b7c367465da2f151bcee5a97bfe339/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ab7e9327ba4677fdbe330674b1384108/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/ab7e9327ba4677fdbe330674b1384108/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-google-signin] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-google-signin] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/google-signin/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-timer] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community-async-storage] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community-async-storage] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-default-preference] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-default-preference/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-default-preference] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-default-preference/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-immersive] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-immersive/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-immersive] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-immersive/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-keep-awake] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-keep-awake] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-keep-awake/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-svg] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-svg/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webrtc] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webrtc] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webrtc/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5-jitsi.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-react-native-0.61.5-jitsi.1.aar/b96897dd8a9391bc4925dd31d5560f8f/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4541abb0d21c0f21275d399b3315e33f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/4541abb0d21c0f21275d399b3315e33f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.0-beta-5.aar/2dcb92a482507dd6ba233b48e95cfec6/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-androidx-2.0-beta-5.aar/2dcb92a482507dd6ba233b48e95cfec6/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/dbd739c65b1fc1698e532b9e80fe745c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-2.0.0.aar/dbd739c65b1fc1698e532b9e80fe745c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.media:media:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/d84a957dc71689ec733ede88543006b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/d84a957dc71689ec733ede88543006b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/db14bac4482869ec308a33952b646cb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/db14bac4482869ec308a33952b646cb4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/901ad76e3f20c1d5ffef98f29e1737dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/901ad76e3f20c1d5ffef98f29e1737dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/4af92403b976a06474126b0181214f0f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/4af92403b976a06474126b0181214f0f/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f9df1f412d058f0f59343af99842f40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/f9df1f412d058f0f59343af99842f40e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fragment-1.2.0.aar/62633ac3e1359bd640107a5363c3d89a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fragment-1.2.0.aar/62633ac3e1359bd640107a5363c3d89a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/680e2f919b0b35a084be37824906ea80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/680e2f919b0b35a084be37824906ea80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4a2fbbb71d4d32230aa736b65879a147/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/4a2fbbb71d4d32230aa736b65879a147/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/739914d68ac688892239025e3cd19eaf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/739914d68ac688892239025e3cd19eaf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/2ffa3c0013ca5d31b21f136038b97d90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/2ffa3c0013ca5d31b21f136038b97d90/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dc81c3f53830e532ee481850921b7856/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/dc81c3f53830e532ee481850921b7856/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/082fde3a2ba547601de7f2affdce49e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/082fde3a2ba547601de7f2affdce49e3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/7618c9abcdf6649da725872b495bb391/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/7618c9abcdf6649da725872b495bb391/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/9f944a09c2b2fca370ac15f4157e31fb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/9f944a09c2b2fca370ac15f4157e31fb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/5bd74429d0fc36eb15e07e60fc6a2211/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/5bd74429d0fc36eb15e07e60fc6a2211/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/activity-1.1.0.aar/06fbdc958b7e50be8403e94913f1cab6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/activity-1.1.0.aar/06fbdc958b7e50be8403e94913f1cab6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/dd98f7d6e70879704063669cc8abdbe1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f117db61cbe1235121f5997bd8778b56/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/f117db61cbe1235121f5997bd8778b56/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/0e43e9b989c1fd86299efa6d308246d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/0e43e9b989c1fd86299efa6d308246d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/769b4758a68a98809c60f5e7049a05a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/769b4758a68a98809c60f5e7049a05a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/4e01be80a61e63c1a29b088611ce61d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/4e01be80a61e63c1a29b088611ce61d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/62f27474a41777f877d88292ff20dc71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/62f27474a41777f877d88292ff20dc71/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/03fda573329a48287a2191fc70be7db1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/03fda573329a48287a2191fc70be7db1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-savedstate-1.0.0.aar/c09fdf43f756f2a8f69db4c209c4276e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-savedstate-1.0.0.aar/c09fdf43f756f2a8f69db4c209c4276e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.2.0.aar/e495abd6d0080085d46d588c6e77455a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.2.0.aar/e495abd6d0080085d46d588c6e77455a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c44da5d22a3eb48079e53290b93b3199/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/c44da5d22a3eb48079e53290b93b3199/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/f3dd15b04d64052ab21c18497f2b5d6a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/f3dd15b04d64052ab21c18497f2b5d6a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5e85e155f0de3d6ddb7ed59fd91527d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/5e85e155f0de3d6ddb7ed59fd91527d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.2.0.aar/b54badbb6f7c22bdc900ffb15d20ea57/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.2.0.aar/b54badbb6f7c22bdc900ffb15d20ea57/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-runtime-2.1.0.aar/3c74cb9d7d86f31dfb8b3b04960f53a6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/core-runtime-2.1.0.aar/3c74cb9d7d86f31dfb8b3b04960f53a6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:27:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/9a918828b64db5e05c9a33d6cc4393f4/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-timber-4.7.1.aar/9a918828b64db5e05c9a33d6cc4393f4/AndroidManifest.xml:5:5-43
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-duktape-android-1.3.0.aar/154e4a5f5a0329023b1cd1131a614d2c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.duktape:duktape-android:1.3.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-duktape-android-1.3.0.aar/154e4a5f5a0329023b1cd1131a614d2c/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-linear-gradient] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-linear-gradient] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-linear-gradient/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sound] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-sound] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-sound/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/73963ff844050c25cd9a9650335a98aa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fresco-2.0.0.aar/73963ff844050c25cd9a9650335a98aa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4257a2d0cca4f19b7d81bb63a9df2faa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/drawee-2.0.0.aar/4257a2d0cca4f19b7d81bb63a9df2faa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/08a019a6ff4d2972de3da3164b851382/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagefilters-2.0.0.aar/08a019a6ff4d2972de3da3164b851382/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/e5e4635175a17b35099784e74e82cc7b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-2.0.0.aar/e5e4635175a17b35099784e74e82cc7b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/5f6f607516d49c62e12f7437c8ad9b72/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/nativeimagetranscoder-2.0.0.aar/5f6f607516d49c62e12f7437c8ad9b72/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/95ea3bb784712d4fe0ac7ca1ebc74720/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-2.0.0.aar/95ea3bb784712d4fe0ac7ca1ebc74720/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/149a7a9e5a56e0102561c87c526f38e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/149a7a9e5a56e0102561c87c526f38e2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/c6665befe94cbbdee3bcd8cf4a3ea219/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-fbcore-2.0.0.aar/c6665befe94cbbdee3bcd8cf4a3ea219/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/app/src/main/AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-android-2.0-beta-5.aar/97adeceffd84a33f885916e71f49846b/AndroidManifest.xml:24:13-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:22:5-79
+MERGED from [:react-native-community_netinfo] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-community_netinfo] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.CAMERA
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.INTERNET
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/19c99136d7f5eb2995dc46001bada291/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/9193d3a546e92311525af6706378161e/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-answers-1.4.6.aar/d88eeb4f955596fe6b6d6e50c4f2527d/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/1d8769394d11c662708ff26b6dfe0249/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.MANAGE_OWN_CALLS
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-68
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:24:5-68
+MERGED from [:react-native-background-timer] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-background-timer] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-background-timer/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:26:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-74
+uses-feature#0x00020000
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-23:35
+	android:glEsVersion
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-41
+	android:required
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-32
+uses-feature#android.hardware.camera
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:9-57
+activity#org.jitsi.meet.sdk.JitsiMeetActivity
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:35:9-42:20
+	android:launchMode
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-44
+	android:windowSoftInputMode
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-55
+	android:supportsPictureInPicture
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-52
+	android:resizeableActivity
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-46
+	android:configChanges
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-115
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:13-64
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:9-86
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:19-83
+service#org.jitsi.meet.sdk.ConnectionService
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:45:9-51:19
+	android:permission
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:47:13-84
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:13-64
+intent-filter#action:name:android.telecom.ConnectionService
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:13-50:29
+action#android.telecom.ConnectionService
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:49:25-73
+service#org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService
+ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:9-88
+	android:name
+		ADDED from [:sdk] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/android/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:52:18-85
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/4a8a02022d6693839887e31ca60f432d/AndroidManifest.xml:34:13-89
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar
+ADDED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-dynamic-links:16.1.5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-dynamic-links-16.1.5.aar/987c900d0f7b720eca9ff46478ba0b00/AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.4.aar/f746a3f2389bb97bc81777dd8ab64bd8/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.4.aar/c28b6d24052a91d96d4d8549335a3d20/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.6.aar/f50ceca6c64f4b43ab39d25311dd6e73/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/935bfd11d0b1aa6eeac542a276bd8bd1/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/4e7c16524668b84c1238d88f9ee7e2b6/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.3.aar/708f57093f02231eb21ec0e61f622067/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.0.1.aar/287e2a65616a1a7b16dc7a0fc6f90382/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from [:react-native-calendar-events] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-calendar-events/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-69
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] /Users/ankush.kumar/AndroidStudioProjects/jitsi-meet/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/2253de448a445da7b33c25a90e6be066/AndroidManifest.xml:13:13-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:24:22-78
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:30:13-70
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:46:9-59:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:48:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:50:13-71
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:51:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:49:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:53:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:52:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:47:13-77
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:61:9-67:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:65:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:63:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:64:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:67:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:66:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:62:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/jetified-leakcanary-android-core-2.0-beta-5.aar/1ac00e9ab5b05cb04c59259432f37c96/AndroidManifest.xml:69:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.0-beta-5] /Users/ankush.kumar/.gradle/caches/transforms-1/files-1.1/leakcanary-object-watcher-android-2.0-beta-5.aar/5092e770bb9450caa334cfb0e5ca53cc/AndroidManifest.xml:9:13-79

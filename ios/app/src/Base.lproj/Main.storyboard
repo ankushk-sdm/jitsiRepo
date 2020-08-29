@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u7g-vg-A8m">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xSm-U5-Hdu">
+            <objects>
+                <viewController id="u7g-vg-A8m" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d40-fc-Y8P"/>
+                        <viewControllerLayoutGuide type="bottom" id="1KD-Ho-g0H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QpR-jB-WOw" customClass="JitsiMeetView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0i-46-o8Q">
+                                <rect key="frame" x="8" y="0.0" width="359" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ITi-B8-b8N"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="sendCommandBtnPressed:" destination="u7g-vg-A8m" eventType="touchUpInside" id="3qs-8N-1WH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="L0i-46-o8Q" secondAttribute="trailing" constant="8" id="Jqp-ja-mEU"/>
+                            <constraint firstItem="L0i-46-o8Q" firstAttribute="leading" secondItem="QpR-jB-WOw" secondAttribute="leading" constant="8" id="MJr-yg-c2w"/>
+                            <constraint firstItem="L0i-46-o8Q" firstAttribute="top" secondItem="d40-fc-Y8P" secondAttribute="bottom" id="yGV-sf-Vi9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZIj-K3-jVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170" y="119"/>
+        </scene>
+    </scenes>
+</document>
